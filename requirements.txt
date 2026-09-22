@@ -1,0 +1,10 @@
+# Clausewitz-MCP runtime dependencies
+#
+# numpy is the only third-party package. It is used to scan the province bitmap
+# (provinces.bmp, 5632x2048) and the river bitmap pixel by pixel; in pure Python
+# the same work took minutes instead of about two seconds.
+#
+# Everything else is standard library: ctypes for memory access, struct for
+# decoding, json for the MCP protocol. There is no MCP SDK dependency -- the
+# JSON-RPC is spoken by hand (see mcp/server.py).
+numpy>=1.20

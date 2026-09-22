@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Clausewitz MCP">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1216"/>
+      <stop offset="55%" stop-color="#151a21"/>
+      <stop offset="100%" stop-color="#1b2028"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c8a04a" stop-opacity="0"/>
+      <stop offset="12%" stop-color="#c8a04a" stop-opacity=".95"/>
+      <stop offset="78%" stop-color="#c8a04a" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#c8a04a" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".035" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+
+  <!-- memory addresses, faint, right side -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#7f8c9b" fill-opacity=".38">
+    <text x="830" y="60">img+0x2DC1C40   CommandQueue::Post</text>
+    <text x="830" y="84">img+0x2D82F10   Resolve(handle*)</text>
+    <text x="830" y="108">img+0x21E4710   COrderGroupCommand</text>
+    <text x="830" y="132">CArmy  +0x428   organisation</text>
+    <text x="830" y="156">CArmy  +0x200   movement path</text>
+    <text x="830" y="180">CState +0x0C8   owner / controller</text>
+    <text x="830" y="204">CWarRelation    +0x198 instigator</text>
+  </g>
+
+  <!-- wordmark -->
+  <g transform="translate(72,0)">
+    <text x="0" y="132" font-family="Georgia,'Times New Roman',serif" font-size="74" letter-spacing="3" fill="#f2f4f7">CLAUSEWITZ</text>
+    <text x="4" y="176" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="27" letter-spacing="11" fill="#c8a04a">M C P</text>
+    <rect x="0" y="196" width="640" height="2" fill="url(#rule)"/>
+    <text x="2" y="230" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#9fb0c0">
+      Play Hearts of Iron IV through the game's own command queue.
+    </text>
+    <text x="2" y="254" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#6f8094">
+      Live memory reads · no save-file parsing · no console cheats
+    </text>
+  </g>
+
+  <!-- corner mark -->
+  <g stroke="#c8a04a" stroke-opacity=".5" fill="none" stroke-width="2">
+    <path d="M24 24 h34 M24 24 v34"/>
+    <path d="M1176 276 h-34 M1176 276 v-34"/>
+  </g>
+</svg>

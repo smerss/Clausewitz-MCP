@@ -1,0 +1,37 @@
+TERRAIN AND COMBAT CONSTANTS
+============================
+
+Source: the game's own files --
+  common/terrain/00_terrain.txt    terrain penalties and widths
+  common/defines/00_defines.lua    stacking, rivers, forts, supply
+
+Not wiki estimates; these match the build exactly.
+
+
+TERRAIN    ATTACK     WIDTH      PER EXTRA DIR    MOVEMENT
+------------------------------------------------------------------
+plains     +0%        70         35               1.00
+desert     +0%        70         35               1.05
+forest     -15%       60         30               1.50
+hills      -25%       70         35               1.50
+urban      -30%       80         40               1.20
+jungle     -30%       60         30               1.50
+marsh      -40%       50         25               2.00
+mountain   -50%       50         25               2.00
+
+STACKING (COMBAT_STACKING_*)
+--------------------------------------------------------------------------
+  Divisions without penalty = 5 + 3 x (attack directions - 1)
+  Each division over that   = -2% to the WHOLE attack
+  So sending 10 divisions from one direction makes the attack 10% WEAKER.
+  Open another direction instead. Each one raises both the limit and the
+  combat width.
+
+OTHER
+--------------------------------------------------------------------------
+  River crossing        small -30%   large -60%
+  Forts                 -15% per level
+  Entrenchment          +2% per level (to the DEFENDER)
+  Encirclement          -30%
+  Carried supply        72 hours (entering a pocket before this runs out is wasted)
+

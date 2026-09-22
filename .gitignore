@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Machine-specific cache
+calling/date_addr.json
+
+# Large, regenerable object index (53 MB); rebuilds itself on first use.
+calling/objindex.pkl
+
+# Reverse-engineering dumps (regenerate with the scanners in research/)
+research/re-dumps/*
+!research/re-dumps/README.md
+
+# Logs
+*.log

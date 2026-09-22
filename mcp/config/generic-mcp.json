@@ -1,0 +1,10 @@
+{
+  "name": "hoi4",
+  "transport": "stdio",
+  "command": "python3",
+  "args": ["/absolute/path/to/Clausewitz-MCP/clausewitz.py", "serve"],
+  "env": {
+    "HOI4_PATH": "/absolute/path/to/Hearts of Iron IV",
+    "CLAUSEWITZ_CACHE": "/absolute/path/to/Clausewitz-MCP/calling"
+  }
+}

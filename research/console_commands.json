@@ -1,0 +1,1690 @@
+{
+ "3dstats": {
+  "aliases": [],
+  "func_off": "0x1b403f0"
+ },
+ "AddFunds": {
+  "aliases": [
+   "mio.AddFunds",
+   "IndustrialOrganisation.AddFunds"
+  ],
+  "func_off": "0x25c7880"
+ },
+ "AddSize": {
+  "aliases": [],
+  "func_off": "0x25c9290"
+ },
+ "AddTaskCapacity": {
+  "aliases": [
+   "mio.AddTaskCapacity",
+   "IndustrialOrganisation.AddTaskCapacity"
+  ],
+  "func_off": "0x25c8ae0"
+ },
+ "Agency.Instant": {
+  "aliases": [],
+  "func_off": "0x1b5ab10"
+ },
+ "Audio.PlayEffect": {
+  "aliases": [],
+  "func_off": "0x1b36030"
+ },
+ "CrashReporter.DeleteCrashData": {
+  "aliases": [],
+  "func_off": "0x32c49a0"
+ },
+ "CrashReporter.SimulateCrash": {
+  "aliases": [],
+  "func_off": "0x32c4780"
+ },
+ "IP": {
+  "aliases": [],
+  "func_off": "0x1b644e0"
+ },
+ "InternationalMarket.AddSubsidyForTags": {
+  "aliases": [],
+  "func_off": "0x2596e20"
+ },
+ "InternationalMarket.AddSubsidyForTrigger": {
+  "aliases": [],
+  "func_off": "0x25976c0"
+ },
+ "InternationalMarket.CancelPurchase": {
+  "aliases": [],
+  "func_off": "0x2594e50"
+ },
+ "InternationalMarket.Dev.SetMarketRequestAutomation": {
+  "aliases": [],
+  "func_off": "0x2597c80"
+ },
+ "InternationalMarket.ReleaseFromMarketStockpile": {
+  "aliases": [],
+  "func_off": "0x2595b30"
+ },
+ "InternationalMarket.RequestPurchase": {
+  "aliases": [],
+  "func_off": "0x25944a0"
+ },
+ "InternationalMarket.ReserveToMarketStockpile": {
+  "aliases": [],
+  "func_off": "0x25954a0"
+ },
+ "InternationalMarket.SetPriceLevel": {
+  "aliases": [],
+  "func_off": "0x25967f0"
+ },
+ "ListIncorrectCenterOfRegions": {
+  "aliases": [],
+  "func_off": "0x1ba4720"
+ },
+ "PostEffectVolumes.Default": {
+  "aliases": [],
+  "func_off": "0x1b40890"
+ },
+ "PrintSynchStuff": {
+  "aliases": [],
+  "func_off": "0x1b5ffc0"
+ },
+ "SetRandomCount": {
+  "aliases": [],
+  "func_off": "0x1b601e0"
+ },
+ "acclimatization": {
+  "aliases": [
+   "acc"
+  ],
+  "func_off": "0x1b325e0"
+ },
+ "add_autonomy": {
+  "aliases": [],
+  "func_off": "0x1b5a890"
+ },
+ "add_cic_bank": {
+  "aliases": [],
+  "func_off": "0x25961c0"
+ },
+ "add_core": {
+  "aliases": [],
+  "func_off": "0x1b5f1f0"
+ },
+ "add_critical_hit": {
+  "aliases": [],
+  "func_off": "0x1b8d340"
+ },
+ "add_diplo": {
+  "aliases": [],
+  "func_off": "0x1b5e550"
+ },
+ "add_equipment": {
+  "aliases": [
+   "ae"
+  ],
+  "func_off": "0x1b71be0"
+ },
+ "add_exile_manpower": {
+  "aliases": [],
+  "func_off": "0x1b8d7b0"
+ },
+ "add_fake_armies": {
+  "aliases": [],
+  "func_off": "0x1b6d2b0"
+ },
+ "add_fleet_arrow": {
+  "aliases": [],
+  "func_off": "0x1b3b060"
+ },
+ "add_ideas": {
+  "aliases": [],
+  "func_off": "0x1b7a580"
+ },
+ "add_intel": {
+  "aliases": [],
+  "func_off": "0x1b99530"
+ },
+ "add_latest_equipment": {
+  "aliases": [
+   "ale"
+  ],
+  "func_off": "0x1b714a0"
+ },
+ "add_legitimacy": {
+  "aliases": [],
+  "func_off": "0x1b8c6f0"
+ },
+ "add_mines": {
+  "aliases": [
+   "mines"
+  ],
+  "func_off": "0x1b306e0"
+ },
+ "add_opinion": {
+  "aliases": [],
+  "func_off": "0x1b5d230"
+ },
+ "add_party_popularity": {
+  "aliases": [],
+  "func_off": "0x1b7bf00"
+ },
+ "add_rain": {
+  "aliases": [],
+  "func_off": "0x1ba0490"
+ },
+ "add_snow": {
+  "aliases": [],
+  "func_off": "0x1ba0910"
+ },
+ "add_stability": {
+  "aliases": [
+   "st"
+  ],
+  "func_off": "0x1b74520"
+ },
+ "add_subsidies": {
+  "aliases": [],
+  "func_off": "0x1b6d2b0"
+ },
+ "add_subsidies_second": {
+  "aliases": [],
+  "func_off": "0x1b6d2b0"
+ },
+ "add_tech": {
+  "aliases": [],
+  "func_off": "0x1b6d2b0"
+ },
+ "add_temp_supply_node": {
+  "aliases": [],
+  "func_off": "0x1b50bd0"
+ },
+ "add_war_support": {
+  "aliases": [
+   "ws"
+  ],
+  "func_off": "0x1b74b30"
+ },
+ "ai": {
+  "aliases": [],
+  "func_off": "0x1b60830"
+ },
+ "ai_accept": {
+  "aliases": [
+   "yesman"
+  ],
+  "func_off": "0x1b62fa0"
+ },
+ "ai_dump": {
+  "aliases": [
+   "aidump"
+  ],
+  "func_off": "0x1b751e0"
+ },
+ "ai_force_equipment": {
+  "aliases": [],
+  "func_off": "0x1b77e30"
+ },
+ "ai_force_template": {
+  "aliases": [],
+  "func_off": "0x1b77d80"
+ },
+ "ai_front_dump": {
+  "aliases": [
+   "aifrontdump"
+  ],
+  "func_off": "0x1b76620"
+ },
+ "ai_front_id": {
+  "aliases": [],
+  "func_off": "0x1b78cd0"
+ },
+ "ai_idea_desire_log": {
+  "aliases": [],
+  "func_off": "0x1b76750"
+ },
+ "ai_invasion": {
+  "aliases": [],
+  "func_off": "0x1b62f00"
+ },
+ "ai_pp_log": {
+  "aliases": [],
+  "func_off": "0x1b76bf0"
+ },
+ "ai_research_log": {
+  "aliases": [],
+  "func_off": "0x1b79430"
+ },
+ "ai_trace": {
+  "aliases": [],
+  "func_off": "0x1b36d10"
+ },
+ "aircombat": {
+  "aliases": [
+   "airc"
+  ],
+  "func_off": "0x1b33da0"
+ },
+ "airealism": {
+  "aliases": [],
+  "func_off": "0x1b76ca0"
+ },
+ "aiview": {
+  "aliases": [],
+  "func_off": "0x1b75130"
+ },
+ "allowdiplo": {
+  "aliases": [
+   "adiplo",
+   "nocb"
+  ],
+  "func_off": "0x1b4b4d0"
+ },
+ "allowideas": {
+  "aliases": [],
+  "func_off": "0x1b4b890"
+ },
+ "allowoperations": {
+  "aliases": [],
+  "func_off": "0x1b4ba80"
+ },
+ "allowtraits": {
+  "aliases": [],
+  "func_off": "0x1b4b6b0"
+ },
+ "analyzetheatres": {
+  "aliases": [
+   "anth"
+  ],
+  "func_off": "0x1b45030"
+ },
+ "annex": {
+  "aliases": [],
+  "func_off": "0x1b5ae90"
+ },
+ "armageddon": {
+  "aliases": [],
+  "func_off": "0x1b4d550"
+ },
+ "auto_unpause": {
+  "aliases": [],
+  "func_off": "0x1b8dd60"
+ },
+ "bloom": {
+  "aliases": [],
+  "func_off": "0x1b407f0"
+ },
+ "bop_add": {
+  "aliases": [],
+  "func_off": "0x1ba2720"
+ },
+ "bop_addmod": {
+  "aliases": [],
+  "func_off": "0x1ba2f80"
+ },
+ "bop_remove": {
+  "aliases": [],
+  "func_off": "0x1ba2400"
+ },
+ "bop_rmmod": {
+  "aliases": [],
+  "func_off": "0x1ba34f0"
+ },
+ "bop_set": {
+  "aliases": [],
+  "func_off": "0x1ba2030"
+ },
+ "bop_show": {
+  "aliases": [],
+  "func_off": "0x1b3cf90"
+ },
+ "browser": {
+  "aliases": [],
+  "func_off": "0x1b3a250"
+ },
+ "build_war_blobs": {
+  "aliases": [],
+  "func_off": "0x1b5e840"
+ },
+ "building_health": {
+  "aliases": [
+   "bhealth"
+  ],
+  "func_off": "0x1b4dcf0"
+ },
+ "bypass_invasion_superiority_check": {
+  "aliases": [
+   "bisc"
+  ],
+  "func_off": "0x1b8dcc0"
+ },
+ "cameraclamp": {
+  "aliases": [],
+  "func_off": "0x1b401e0"
+ },
+ "capture_commander": {
+  "aliases": [],
+  "func_off": "0x1b846b0"
+ },
+ "cityreload": {
+  "aliases": [],
+  "func_off": "0x1b35580"
+ },
+ "civilwar": {
+  "aliases": [],
+  "func_off": "0x1b79840"
+ },
+ "clear_critical_hits": {
+  "aliases": [],
+  "func_off": "0x1b8d5f0"
+ },
+ "clear_intel_pools": {
+  "aliases": [],
+  "func_off": "0x1b91de0"
+ },
+ "clear_tech": {
+  "aliases": [],
+  "func_off": "0x1b6d2b0"
+ },
+ "collaboration": {
+  "aliases": [],
+  "func_off": "0x1b6d2b0"
+ },
+ "collision": {
+  "aliases": [
+   "debug_collision"
+  ],
+  "func_off": "0x1b38eb0"
+ },
+ "combat_analyzer": {
+  "aliases": [],
+  "func_off": "0x1b55450"
+ },
+ "combatsound": {
+  "aliases": [],
+  "func_off": "0x1b53220"
+ },
+ "combattest": {
+  "aliases": [],
+  "func_off": "0x1b33150"
+ },
+ "compare_to_last_checksum": {
+  "aliases": [],
+  "func_off": "0x1b89fa0"
+ },
+ "compliance": {
+  "aliases": [],
+  "func_off": "0x1b73a30"
+ },
+ "cp": {
+  "aliases": [],
+  "func_off": "0x1b6c880"
+ },
+ "createarmygroup": {
+  "aliases": [],
+  "func_off": "0x1b55210"
+ },
+ "createlean": {
+  "aliases": [],
+  "func_off": "0x1b3a5e0"
+ },
+ "ct": {
+  "aliases": [],
+  "func_off": "0x1b88850"
+ },
+ "damage_units": {
+  "aliases": [],
+  "func_off": "0x1b8c990"
+ },
+ "dbg_enable_scripted_gui": {
+  "aliases": [],
+  "func_off": "0x1b85a80"
+ },
+ "dbg_prov": {
+  "aliases": [],
+  "func_off": "0x1b86290"
+ },
+ "dbg_task_force_role_insignia_assignment": {
+  "aliases": [],
+  "func_off": "0x1b8e920"
+ },
+ "dbg_tf_fulfillment": {
+  "aliases": [],
+  "func_off": "0x1b8c8f0"
+ },
+ "debug": {
+  "aliases": [],
+  "func_off": "0x1b33430"
+ },
+ "debug_achievements": {
+  "aliases": [],
+  "func_off": "0x1b67b70"
+ },
+ "debug_achievements_clear": {
+  "aliases": [],
+  "func_off": "0x1b679b0"
+ },
+ "debug_air_vs_land": {
+  "aliases": [
+   "dbg_cas"
+  ],
+  "func_off": "0x1b50510"
+ },
+ "debug_army_entity": {
+  "aliases": [
+   "dae"
+  ],
+  "func_off": "0x1b3a4f0"
+ },
+ "debug_assert": {
+  "aliases": [],
+  "func_off": "0x1b66de0"
+ },
+ "debug_bloom": {
+  "aliases": [],
+  "func_off": "0x1b38030"
+ },
+ "debug_borders": {
+  "aliases": [],
+  "func_off": "0x1b37c20"
+ },
+ "debug_checkportraitssanity": {
+  "aliases": [],
+  "func_off": "0x1b66be0"
+ },
+ "debug_cities": {
+  "aliases": [],
+  "func_off": "0x1b379a0"
+ },
+ "debug_crash": {
+  "aliases": [
+   "crash"
+  ],
+  "func_off": "0x1b69fb0"
+ },
+ "debug_custom_achievements": {
+  "aliases": [],
+  "func_off": "0x1b67e40"
+ },
+ "debug_diploactions": {
+  "aliases": [],
+  "func_off": "0x1b668e0"
+ },
+ "debug_dumpdiploactions": {
+  "aliases": [],
+  "func_off": "0x1b66960"
+ },
+ "debug_dumpevents": {
+  "aliases": [],
+  "func_off": "0x1b66620"
+ },
+ "debug_entities": {
+  "aliases": [],
+  "func_off": "0x1b382c0"
+ },
+ "debug_events": {
+  "aliases": [],
+  "func_off": "0x1b64960"
+ },
+ "debug_force_capitulate": {
+  "aliases": [
+   "dfc"
+  ],
+  "func_off": "0x1b45e50"
+ },
+ "debug_front_sections": {
+  "aliases": [
+   "dbg_fs"
+  ],
+  "func_off": "0x1b3e170"
+ },
+ "debug_fronts": {
+  "aliases": [],
+  "func_off": "0x1b66fd0"
+ },
+ "debug_info": {
+  "aliases": [],
+  "func_off": "0x1b38320"
+ },
+ "debug_lines": {
+  "aliases": [],
+  "func_off": "0x1b38260"
+ },
+ "debug_lockcamera": {
+  "aliases": [],
+  "func_off": "0x1b381a0"
+ },
+ "debug_nogui": {
+  "aliases": [],
+  "func_off": "0x1b38170"
+ },
+ "debug_nomouse": {
+  "aliases": [],
+  "func_off": "0x1b66f30"
+ },
+ "debug_norender": {
+  "aliases": [],
+  "func_off": "0x1b4ab60"
+ },
+ "debug_off_front_snap": {
+  "aliases": [
+   "dbg_fsnap"
+  ],
+  "func_off": "0x1b37790"
+ },
+ "debug_orders_tree": {
+  "aliases": [
+   "dot"
+  ],
+  "func_off": "0x1b338d0"
+ },
+ "debug_particle": {
+  "aliases": [],
+  "func_off": "0x1b38660"
+ },
+ "debug_postfx": {
+  "aliases": [],
+  "func_off": "0x1b37ef0"
+ },
+ "debug_rivers": {
+  "aliases": [],
+  "func_off": "0x1b37e50"
+ },
+ "debug_show_event_ID": {
+  "aliases": [],
+  "func_off": "0x1b64850"
+ },
+ "debug_sky": {
+  "aliases": [],
+  "func_off": "0x1b37f90"
+ },
+ "debug_smooth": {
+  "aliases": [],
+  "func_off": "0x1b66e90"
+ },
+ "debug_tactics": {
+  "aliases": [],
+  "func_off": "0x1b4af30"
+ },
+ "debug_terrain": {
+  "aliases": [],
+  "func_off": "0x1b37a40"
+ },
+ "debug_texture": {
+  "aliases": [],
+  "func_off": "0x1b38380"
+ },
+ "debug_textures": {
+  "aliases": [],
+  "func_off": "0x1b38700"
+ },
+ "debug_tooltip": {
+  "aliases": [],
+  "func_off": "0x1b380d0"
+ },
+ "debug_trees": {
+  "aliases": [],
+  "func_off": "0x1b37db0"
+ },
+ "debug_types": {
+  "aliases": [],
+  "func_off": "0x1b646b0"
+ },
+ "debug_unit_controller_weights": {
+  "aliases": [
+   "dbg_ucw"
+  ],
+  "func_off": "0x1b3fde0"
+ },
+ "debug_unit_entity": {
+  "aliases": [
+   "dbg_ue"
+  ],
+  "func_off": "0x1b33610"
+ },
+ "debug_water": {
+  "aliases": [],
+  "func_off": "0x1b37b80"
+ },
+ "debug_wireframe": {
+  "aliases": [],
+  "func_off": "0x1b38f50"
+ },
+ "debug_zoom": {
+  "aliases": [],
+  "func_off": "0x1b37700"
+ },
+ "deironman": {
+  "aliases": [],
+  "func_off": "0x1b444c0"
+ },
+ "deleteallairwings": {
+  "aliases": [
+   "delallair"
+  ],
+  "func_off": "0x1ba4430"
+ },
+ "deleteallunits": {
+  "aliases": [
+   "delall"
+  ],
+  "func_off": "0x1b47ae0"
+ },
+ "deleteallunitsbut": {
+  "aliases": [
+   "delallbut"
+  ],
+  "func_off": "0x1b48ae0"
+ },
+ "deltat": {
+  "aliases": [],
+  "func_off": "0x1b4dac0"
+ },
+ "disable_ai": {
+  "aliases": [],
+  "func_off": "0x1b612c0"
+ },
+ "disable_weather": {
+  "aliases": [],
+  "func_off": "0x1b503f0"
+ },
+ "drop_cosmetic_tag": {
+  "aliases": [],
+  "func_off": "0x1b7a040"
+ },
+ "dump_cached_random_logs": {
+  "aliases": [],
+  "func_off": "0x1b649e0"
+ },
+ "dump_checksum": {
+  "aliases": [],
+  "func_off": "0x1b89940"
+ },
+ "dump_equipment_loc": {
+  "aliases": [],
+  "func_off": "0x1ba0d90"
+ },
+ "dump_garrison_templates": {
+  "aliases": [],
+  "func_off": "0x1b64f90"
+ },
+ "dump_synchronized_members": {
+  "aliases": [],
+  "func_off": "0x1b8c120"
+ },
+ "easy_decisions": {
+  "aliases": [
+   "ezd"
+  ],
+  "func_off": "0x1ba3a60"
+ },
+ "effect": {
+  "aliases": [
+   "e"
+  ],
+  "func_off": "0x1b6d2b0"
+ },
+ "empty_fuel_tanks": {
+  "aliases": [],
+  "func_off": "0x1b73400"
+ },
+ "emulate_ai_operative_assignment": {
+  "aliases": [],
+  "func_off": "0x1b9c060"
+ },
+ "enable_ai": {
+  "aliases": [],
+  "func_off": "0x1b61200"
+ },
+ "enable_weather": {
+  "aliases": [],
+  "func_off": "0x1b502d0"
+ },
+ "endraids": {
+  "aliases": [],
+  "func_off": "0x1ba4f30"
+ },
+ "energy_ratio": {
+  "aliases": [
+   "er"
+  ],
+  "func_off": "0x1b86b10"
+ },
+ "error": {
+  "aliases": [],
+  "func_off": "0x1b630d0"
+ },
+ "eval_effect": {
+  "aliases": [],
+  "func_off": "0x1b6ea60"
+ },
+ "eval_trigger": {
+  "aliases": [],
+  "func_off": "0x1b6f410"
+ },
+ "event": {
+  "aliases": [],
+  "func_off": "0x1b58d40"
+ },
+ "faction_goal_slot": {
+  "aliases": [
+   "fgs"
+  ],
+  "func_off": "0x1ba5da0"
+ },
+ "faction_influence": {
+  "aliases": [
+   "finf"
+  ],
+  "func_off": "0x1ba7560"
+ },
+ "faction_initiative": {
+  "aliases": [
+   "fi"
+  ],
+  "func_off": "0x1ba65e0"
+ },
+ "faction_unlock": {
+  "aliases": [
+   "fu"
+  ],
+  "func_off": "0x1ba6e40"
+ },
+ "fast_forward": {
+  "aliases": [],
+  "func_off": "0x1ba7d70"
+ },
+ "finish_decision": {
+  "aliases": [],
+  "func_off": "0x1b508d0"
+ },
+ "flagsoutput": {
+  "aliases": [],
+  "func_off": "0x1b35280"
+ },
+ "focus_count": {
+  "aliases": [],
+  "func_off": "0x1b31660"
+ },
+ "force_operative_detection": {
+  "aliases": [],
+  "func_off": "0x1b9bc80"
+ },
+ "fow": {
+  "aliases": [
+   "debug_fow"
+  ],
+  "func_off": "0x1b37500"
+ },
+ "freefocuses": {
+  "aliases": [
+   "ff"
+  ],
+  "func_off": "0x1ba5b00"
+ },
+ "fronts": {
+  "aliases": [],
+  "func_off": "0x1b4a7a0"
+ },
+ "fuel": {
+  "aliases": [
+   "army_juice"
+  ],
+  "func_off": "0x1b72920"
+ },
+ "fuel_gain": {
+  "aliases": [],
+  "func_off": "0x1b72f20"
+ },
+ "fullscreen": {
+  "aliases": [],
+  "func_off": "0x1b375d0"
+ },
+ "gain_xp": {
+  "aliases": [],
+  "func_off": "0x1b839c0"
+ },
+ "gamespeed": {
+  "aliases": [],
+  "func_off": "0x1b78270"
+ },
+ "gamestate_timer": {
+  "aliases": [
+   "gstimer"
+  ],
+  "func_off": "0x1b52180"
+ },
+ "gbpaint": {
+  "aliases": [],
+  "func_off": "0x1b35990"
+ },
+ "gbreload": {
+  "aliases": [],
+  "func_off": "0x1b358a0"
+ },
+ "get_capital": {
+  "aliases": [],
+  "func_off": "0x1b8e270"
+ },
+ "get_country_flag": {
+  "aliases": [],
+  "func_off": "0x1b851f0"
+ },
+ "get_flag": {
+  "aliases": [],
+  "func_off": "0x1b7fc80"
+ },
+ "get_var": {
+  "aliases": [],
+  "func_off": "0x1b814a0"
+ },
+ "goto_province": {
+  "aliases": [],
+  "func_off": "0x1b6a2d0"
+ },
+ "goto_region": {
+  "aliases": [],
+  "func_off": "0x1b6a7d0"
+ },
+ "goto_state": {
+  "aliases": [],
+  "func_off": "0x1b6a5b0"
+ },
+ "grow_intel_network": {
+  "aliases": [],
+  "func_off": "0x1b8fc00"
+ },
+ "guibounds": {
+  "aliases": [
+   "gui"
+  ],
+  "func_off": "0x1b52af0"
+ },
+ "hdr": {
+  "aliases": [],
+  "func_off": "0x1b40600"
+ },
+ "hdr_debug": {
+  "aliases": [],
+  "func_off": "0x1b406b0"
+ },
+ "help": {
+  "aliases": [],
+  "func_off": "0x1b872d0"
+ },
+ "helphelp": {
+  "aliases": [],
+  "func_off": "0x1b87470"
+ },
+ "helplog": {
+  "aliases": [],
+  "func_off": "0x1b86fb0"
+ },
+ "highlight_encirclements": {
+  "aliases": [],
+  "func_off": "0x1b49fb0"
+ },
+ "history_logger": {
+  "aliases": [],
+  "func_off": "0x1b67700"
+ },
+ "hsv": {
+  "aliases": [],
+  "func_off": "0x1b39250"
+ },
+ "human_ai": {
+  "aliases": [],
+  "func_off": "0x1b62e60"
+ },
+ "imgui": {
+  "aliases": [],
+  "func_off": "0x1b8f630"
+ },
+ "instant_prepare": {
+  "aliases": [],
+  "func_off": "0x1b67380"
+ },
+ "instant_wargoal": {
+  "aliases": [],
+  "func_off": "0x1b5ba10"
+ },
+ "instantconstruction": {
+  "aliases": [
+   "ic"
+  ],
+  "func_off": "0x1b4f730"
+ },
+ "instantevents": {
+  "aliases": [],
+  "func_off": "0x1b4d8e0"
+ },
+ "instantshiprefit": {
+  "aliases": [
+   "isr"
+  ],
+  "func_off": "0x1b4f910"
+ },
+ "instanttraining": {
+  "aliases": [
+   "it"
+  ],
+  "func_off": "0x1b4f550"
+ },
+ "launch_nuke": {
+  "aliases": [
+   "ln"
+  ],
+  "func_off": "0x1b4cba0"
+ },
+ "list_flags": {
+  "aliases": [],
+  "func_off": "0x1b82180"
+ },
+ "list_hidden_focuses": {
+  "aliases": [
+   "list_hd"
+  ],
+  "func_off": "0x1b6a9f0"
+ },
+ "list_ideas": {
+  "aliases": [],
+  "func_off": "0x1b7ba70"
+ },
+ "list_leader_modifiers": {
+  "aliases": [],
+  "func_off": "0x1b42080"
+ },
+ "list_modifiers": {
+  "aliases": [],
+  "func_off": "0x1b82730"
+ },
+ "list_vars": {
+  "aliases": [],
+  "func_off": "0x1b81f10"
+ },
+ "loc_check": {
+  "aliases": [],
+  "func_off": "0x1b9f830"
+ },
+ "loc_check_characters": {
+  "aliases": [],
+  "func_off": "0x1b9f5c0"
+ },
+ "loc_check_decisions": {
+  "aliases": [],
+  "func_off": "0x1b9f0d0"
+ },
+ "loc_check_events": {
+  "aliases": [],
+  "func_off": "0x1b9ee40"
+ },
+ "loc_check_focuses": {
+  "aliases": [],
+  "func_off": "0x1b9d920"
+ },
+ "loc_check_modifiers": {
+  "aliases": [],
+  "func_off": "0x1b9ef90"
+ },
+ "loc_check_national_spirits": {
+  "aliases": [],
+  "func_off": "0x1b9f330"
+ },
+ "lock_air_det": {
+  "aliases": [],
+  "func_off": "0x1b61390"
+ },
+ "lock_air_eff": {
+  "aliases": [],
+  "func_off": "0x1b620f0"
+ },
+ "log_advisor_trait_errors": {
+  "aliases": [],
+  "func_off": "0x1ba3bf0"
+ },
+ "manpower": {
+  "aliases": [],
+  "func_off": "0x1b5cf20"
+ },
+ "map_icon_reload_type": {
+  "aliases": [],
+  "func_off": "0x1b3a6b0"
+ },
+ "mapmode": {
+  "aliases": [],
+  "func_off": "0x1b36d30"
+ },
+ "mapnames": {
+  "aliases": [],
+  "func_off": "0x1b35690"
+ },
+ "massconquer": {
+  "aliases": [
+   "massc"
+  ],
+  "func_off": "0x1b46570"
+ },
+ "mastery": {
+  "aliases": [],
+  "func_off": "0x25672d0"
+ },
+ "metrics": {
+  "aliases": [],
+  "func_off": "0x1b754c0"
+ },
+ "morehumans": {
+  "aliases": [
+   "humans"
+  ],
+  "func_off": "0x1b536e0"
+ },
+ "morehumanswithcountries": {
+  "aliases": [],
+  "func_off": "0x1b53ad0"
+ },
+ "moveunit": {
+  "aliases": [],
+  "func_off": "0x1b68020"
+ },
+ "navalcombatlog": {
+  "aliases": [],
+  "func_off": "0x1b331c0"
+ },
+ "night": {
+  "aliases": [],
+  "func_off": "0x1b79380"
+ },
+ "no_wargoal": {
+  "aliases": [],
+  "func_off": "0x1b5b970"
+ },
+ "nomapicons": {
+  "aliases": [],
+  "func_off": "0x1b4faf0"
+ },
+ "nopausetext": {
+  "aliases": [],
+  "func_off": "0x1b52d00"
+ },
+ "nudge": {
+  "aliases": [],
+  "func_off": "0x1b63040"
+ },
+ "nukes": {
+  "aliases": [
+   "nuke"
+  ],
+  "func_off": "0x1b4c860"
+ },
+ "observe": {
+  "aliases": [
+   "spectator"
+  ],
+  "func_off": "0x1b60490"
+ },
+ "occupationpaint": {
+  "aliases": [
+   "op"
+  ],
+  "func_off": "0x1b51010"
+ },
+ "oos": {
+  "aliases": [],
+  "func_off": "0x1b69f30"
+ },
+ "oos_dump": {
+  "aliases": [
+   "oosdump"
+  ],
+  "func_off": "0x1b32550"
+ },
+ "operation_debug": {
+  "aliases": [],
+  "func_off": "0x1b5e080"
+ },
+ "operation_start": {
+  "aliases": [],
+  "func_off": "0x1b4c360"
+ },
+ "operation_test_phase_selection": {
+  "aliases": [],
+  "func_off": "0x1b4bd00"
+ },
+ "particle_editor": {
+  "aliases": [],
+  "func_off": "0x2fb9220"
+ },
+ "pathfind_cache": {
+  "aliases": [],
+  "func_off": "0x1b77fe0"
+ },
+ "pathfind_stats": {
+  "aliases": [],
+  "func_off": "0x1b77ee0"
+ },
+ "pause_in_hours": {
+  "aliases": [],
+  "func_off": "0x1b77950"
+ },
+ "pause_on_trigger": {
+  "aliases": [],
+  "func_off": "0x1b76ed0"
+ },
+ "pp": {
+  "aliases": [
+   "political_power"
+  ],
+  "func_off": "0x1b73ea0"
+ },
+ "prep_for_war": {
+  "aliases": [],
+  "func_off": "0x1b85b40"
+ },
+ "prepareraids": {
+  "aliases": [],
+  "func_off": "0x1ba5570"
+ },
+ "prevent_operative_detection": {
+  "aliases": [],
+  "func_off": "0x1b9bfc0"
+ },
+ "prices": {
+  "aliases": [],
+  "func_off": "0x1b648f0"
+ },
+ "print_controllers": {
+  "aliases": [],
+  "func_off": "0x1ba1e20"
+ },
+ "print_intel_network": {
+  "aliases": [],
+  "func_off": "0x1b8fdb0"
+ },
+ "print_intel_values": {
+  "aliases": [],
+  "func_off": "0x1b932a0"
+ },
+ "print_operation_tokens": {
+  "aliases": [],
+  "func_off": "0x1b6bc60"
+ },
+ "print_radar_intel": {
+  "aliases": [],
+  "func_off": "0x1b95cb0"
+ },
+ "profile": {
+  "aliases": [],
+  "func_off": "0x1b428d0"
+ },
+ "province_ids": {
+  "aliases": [
+   "pid"
+  ],
+  "func_off": "0x1b86980"
+ },
+ "provtooltipdebug": {
+  "aliases": [
+   "tdebug"
+  ],
+  "func_off": "0x1b35e30"
+ },
+ "puppet": {
+  "aliases": [],
+  "func_off": "0x1b5b3d0"
+ },
+ "railroads": {
+  "aliases": [],
+  "func_off": "0x1b4ad50"
+ },
+ "railwaygun": {
+  "aliases": [
+   "rg"
+  ],
+  "func_off": "0x1b9d020"
+ },
+ "railwaygun_damage": {
+  "aliases": [],
+  "func_off": "0x1b9d6b0"
+ },
+ "random_seed": {
+  "aliases": [],
+  "func_off": "0x1b86d90"
+ },
+ "randomlog": {
+  "aliases": [
+   "rlog"
+  ],
+  "func_off": "0x1b32360"
+ },
+ "rebuildfronts": {
+  "aliases": [],
+  "func_off": "0x1b450c0"
+ },
+ "rebuildlayers": {
+  "aliases": [],
+  "func_off": "0x1b35610"
+ },
+ "reduce_opinion": {
+  "aliases": [],
+  "func_off": "0x1b5d960"
+ },
+ "release": {
+  "aliases": [
+   "rls"
+  ],
+  "func_off": "0x1b30b80"
+ },
+ "reload": {
+  "aliases": [],
+  "func_off": "0x2fb5c80"
+ },
+ "reload_textures": {
+  "aliases": [
+   "rt",
+   "reload_texture"
+  ],
+  "func_off": "0x1b38830"
+ },
+ "reloadfx": {
+  "aliases": [],
+  "func_off": "0x1b36780"
+ },
+ "reloadinterface": {
+  "aliases": [],
+  "func_off": "0x1b54850"
+ },
+ "reloadoob": {
+  "aliases": [],
+  "func_off": "0x1b55040"
+ },
+ "reloadtechnologies": {
+  "aliases": [],
+  "func_off": "0x1b54910"
+ },
+ "reloadweather": {
+  "aliases": [],
+  "func_off": "0x1b4fcd0"
+ },
+ "remove_core": {
+  "aliases": [],
+  "func_off": "0x1b5ffa0"
+ },
+ "remove_ideas": {
+  "aliases": [],
+  "func_off": "0x1b7b1f0"
+ },
+ "rendertype": {
+  "aliases": [],
+  "func_off": "0x335a1c0"
+ },
+ "research": {
+  "aliases": [],
+  "func_off": "0x1b5a020"
+ },
+ "research_fast": {
+  "aliases": [],
+  "func_off": "0x1b5acb0"
+ },
+ "research_on_icon_click": {
+  "aliases": [
+   "roic"
+  ],
+  "func_off": "0x1b5abf0"
+ },
+ "resign": {
+  "aliases": [],
+  "func_off": "0x1b5de20"
+ },
+ "resistance": {
+  "aliases": [],
+  "func_off": "0x1b735c0"
+ },
+ "restart": {
+  "aliases": [],
+  "func_off": "0x1ba59a0"
+ },
+ "retire_country_leader": {
+  "aliases": [],
+  "func_off": "0x1b6d2b0"
+ },
+ "run": {
+  "aliases": [],
+  "func_off": "0x1b69120"
+ },
+ "savecheck": {
+  "aliases": [],
+  "func_off": "0x1b640c0"
+ },
+ "savegame": {
+  "aliases": [
+   "save"
+  ],
+  "func_off": "0x1b63880"
+ },
+ "select": {
+  "aliases": [
+   "sel"
+  ],
+  "func_off": "0x1b3c690"
+ },
+ "set_cosmetic_tag": {
+  "aliases": [],
+  "func_off": "0x1b79f70"
+ },
+ "set_country_flag": {
+  "aliases": [],
+  "func_off": "0x1b7de90"
+ },
+ "set_debug_unit_controller": {
+  "aliases": [
+   "dbg_unit_controller"
+  ],
+  "func_off": "0x1b76800"
+ },
+ "set_flag": {
+  "aliases": [],
+  "func_off": "0x1b7f5d0"
+ },
+ "set_global_flag": {
+  "aliases": [],
+  "func_off": "0x1b7d790"
+ },
+ "set_mud": {
+  "aliases": [],
+  "func_off": "0x1ba0270"
+ },
+ "set_ruling_party": {
+  "aliases": [],
+  "func_off": "0x1b7cd00"
+ },
+ "set_var": {
+  "aliases": [],
+  "func_off": "0x1b80810"
+ },
+ "set_weather": {
+  "aliases": [],
+  "func_off": "0x1b9fa20"
+ },
+ "setcontroller": {
+  "aliases": [],
+  "func_off": "0x1b51db0"
+ },
+ "setowner": {
+  "aliases": [],
+  "func_off": "0x1b517e0"
+ },
+ "show_enemy_ships": {
+  "aliases": [],
+  "func_off": "0x1b4b2f0"
+ },
+ "show_focuses": {
+  "aliases": [],
+  "func_off": "0x1b6afa0"
+ },
+ "show_ships": {
+  "aliases": [],
+  "func_off": "0x1b4b110"
+ },
+ "show_xp_gain": {
+  "aliases": [
+   "xp_gain"
+  ],
+  "func_off": "0x1b44650"
+ },
+ "simplified_transport": {
+  "aliases": [],
+  "func_off": "0x1b4a5c0"
+ },
+ "sleep": {
+  "aliases": [
+   "wait"
+  ],
+  "func_off": "0x1b69fc0"
+ },
+ "sp_add_mastermind": {
+  "aliases": [],
+  "func_off": "0x2631810"
+ },
+ "sp_add_scientist": {
+  "aliases": [],
+  "func_off": "0x2630720"
+ },
+ "sp_add_selected_scientist_level": {
+  "aliases": [],
+  "func_off": "0x2631bd0"
+ },
+ "sp_add_selected_scientist_trait": {
+  "aliases": [],
+  "func_off": "0x2633ae0"
+ },
+ "sp_available": {
+  "aliases": [],
+  "func_off": "0x2630220"
+ },
+ "sp_breakthrough": {
+  "aliases": [
+   "sp_br"
+  ],
+  "func_off": "0x2634f80"
+ },
+ "sp_fast": {
+  "aliases": [],
+  "func_off": "0x262fd20"
+ },
+ "sp_instant": {
+  "aliases": [],
+  "func_off": "0x262ffa0"
+ },
+ "sp_prototype_reward": {
+  "aliases": [],
+  "func_off": "0x2635b20"
+ },
+ "sp_remove_selected_scientist_trait": {
+  "aliases": [],
+  "func_off": "0x2634630"
+ },
+ "sp_research_all": {
+  "aliases": [
+   "sp_ra"
+  ],
+  "func_off": "0x2635590"
+ },
+ "sp_set_selected_scientist_level": {
+  "aliases": [],
+  "func_off": "0x2632fc0"
+ },
+ "sp_unlock_all": {
+  "aliases": [],
+  "func_off": "0x26304a0"
+ },
+ "spawn": {
+  "aliases": [],
+  "func_off": "0x1b68290"
+ },
+ "spawn_3D_models": {
+  "aliases": [],
+  "func_off": "0x1b6d2b0"
+ },
+ "spawnactor": {
+  "aliases": [],
+  "func_off": "0x1b39000"
+ },
+ "srgb": {
+  "aliases": [],
+  "func_off": "0x1b40750"
+ },
+ "supply_toggle_flow_penalties": {
+  "aliases": [],
+  "func_off": "0x1b506f0"
+ },
+ "tag": {
+  "aliases": [],
+  "func_off": "0x1b5d980"
+ },
+ "tag_color": {
+  "aliases": [],
+  "func_off": "0x1b39e80"
+ },
+ "teleport": {
+  "aliases": [
+   "tp"
+  ],
+  "func_off": "0x1b49dd0"
+ },
+ "test": {
+  "aliases": [],
+  "func_off": "0x1ba8530"
+ },
+ "test_log": {
+  "aliases": [],
+  "func_off": "0x1b79e30"
+ },
+ "test_naval_move_danger": {
+  "aliases": [],
+  "func_off": "0x1b47260"
+ },
+ "test_save_mode": {
+  "aliases": [],
+  "func_off": "0x1b79ed0"
+ },
+ "testevent": {
+  "aliases": [],
+  "func_off": "0x1b5c5a0"
+ },
+ "testrtti": {
+  "aliases": [],
+  "func_off": "0x1b5bab0"
+ },
+ "testtool": {
+  "aliases": [],
+  "func_off": "0x1b44d30"
+ },
+ "theatersrebuild": {
+  "aliases": [
+   "trebuild"
+  ],
+  "func_off": "0x1b471e0"
+ },
+ "threat": {
+  "aliases": [
+   "tension"
+  ],
+  "func_off": "0x1b70d40"
+ },
+ "time": {
+  "aliases": [],
+  "func_off": "0x1b52e30"
+ },
+ "timer": {
+  "aliases": [],
+  "func_off": "0x1b874e0"
+ },
+ "timer_dump": {
+  "aliases": [],
+  "func_off": "0x1b885b0"
+ },
+ "timer_reset": {
+  "aliases": [],
+  "func_off": "0x1b88470"
+ },
+ "timer_restart": {
+  "aliases": [],
+  "func_off": "0x1b883c0"
+ },
+ "timer_start": {
+  "aliases": [],
+  "func_off": "0x1b88310"
+ },
+ "timer_stop": {
+  "aliases": [],
+  "func_off": "0x1b88510"
+ },
+ "toggle_hidden_techs": {
+  "aliases": [],
+  "func_off": "0x2635a00"
+ },
+ "toggle_offset_ai_daily_update": {
+  "aliases": [],
+  "func_off": "0x1b8e1d0"
+ },
+ "toggle_silhouette_portraits": {
+  "aliases": [],
+  "func_off": "0x1ba5cd0"
+ },
+ "track_unit_controller_weights": {
+  "aliases": [
+   "track_ucw"
+  ],
+  "func_off": "0x1b462c0"
+ },
+ "traderoutes": {
+  "aliases": [],
+  "func_off": "0x1b4a980"
+ },
+ "trigger": {
+  "aliases": [
+   "t"
+  ],
+  "func_off": "0x1b70020"
+ },
+ "trigger_ability": {
+  "aliases": [],
+  "func_off": "0x1b43390"
+ },
+ "trigger_docs": {
+  "aliases": [
+   "effect_docs",
+   "scripting_docs",
+   "docs"
+  ],
+  "func_off": "0x1b6b1e0"
+ },
+ "tweakergui": {
+  "aliases": [],
+  "func_off": "0x2fb5140"
+ },
+ "unit_address": {
+  "aliases": [],
+  "func_off": "0x1b78730"
+ },
+ "unit_stats": {
+  "aliases": [],
+  "func_off": "0x1b418b0"
+ },
+ "update_loc": {
+  "aliases": [],
+  "func_off": "0x1b58c10"
+ },
+ "updateequipments": {
+  "aliases": [],
+  "func_off": "0x1b54c80"
+ },
+ "updatesubunits": {
+  "aliases": [],
+  "func_off": "0x1b54e60"
+ },
+ "version": {
+  "aliases": [],
+  "func_off": "0x1b631f0"
+ },
+ "war_relations": {
+  "aliases": [],
+  "func_off": "0x1b40940"
+ },
+ "weather": {
+  "aliases": [],
+  "func_off": "0x1b4ff90"
+ },
+ "whitepeace": {
+  "aliases": [
+   "wp"
+  ],
+  "func_off": "0x1b446f0"
+ },
+ "window": {
+  "aliases": [
+   "wnd"
+  ],
+  "func_off": "0x1b363d0"
+ },
+ "xp": {
+  "aliases": [],
+  "func_off": "0x1b6c210"
+ }
+}

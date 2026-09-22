@@ -1,0 +1,33 @@
+HANDLE TYPES
+============
+
+The game refers to objects by a {type, id} handle rather than a raw
+pointer. Passing a handle of the WRONG TYPE to a command CRASHES the
+game: giving a command a CCharacter where it wanted a CArmyLeader
+caused two crashes and one silent no-op during development.
+
+Resolver: img+0x2D82F10  (handle* -> object pointer)
+
+
+TYPE   CLASS                              DESCRIPTION
+------------------------------------------------------------------------------
+50     CEvent                             olay
+51     CArmy / CShip / CTaskForce         division, ship, task force
+52     CReferencedDivisionTemplate        division template
+53     COrdersGroup                       army or army group
+56     CMilitaryProductionLine            land/air production line
+57     CNavalProductionLine               naval production line
+61     CFleet                             filo
+65     CAirBase                           air base
+66     CFront                             front
+67     CTheatre                           theatre
+68     CNavyTheaterGroup                  naval theatre group
+69     CAirWing                           air wing
+70     CEquipmentVariant                  equipment variant
+73     CCharacter                         character, NOT a general (see 4713)
+83     NProject                           special project
+84     CRaid                              akin
+86     NProject                           special project
+87     NProject                           special project
+88     CFaction                           ittifak
+4713   CArmyLeader                        army commander

@@ -1,0 +1,245 @@
+STRUCT OFFSETS
+==============
+
+Field positions inside game objects. Most were recovered automatically
+from the game's own serialize methods, so the field names are the
+developers' own rather than guesses.
+
+
+
+[offsets]  Offsets recovered by reverse engineering for HOI4 1.19.2 (Linux, native).
+------------------------------------------------------------------------------
+  CMD_ALIASES                  0x30        48
+  CMD_ALIAS_COUNT              0x28        40
+  CMD_CTX                      0x78        120
+  CMD_FUNC                     0x68        104
+  CMD_NAME                     0x8         8
+  CMD_STRIDE                   0x1C8       456
+  CO_ADJECTIVE                 0x30        48
+  CO_ECONOMY                   0xF40       3904
+  CO_FUEL                      0x1520      5408
+  CO_MANPOWER_SUB              0x328       808
+  CO_MODIFIERS                 0x5B0       1456
+  CO_NAME                      0x10        16
+  CO_NUKES                     0x12D8      4824
+  CO_POLITICS                  0xF68       3944
+  CO_STABILITY_BASE            0x10A8      4264
+  CO_STATES                    0x460       1120
+  CO_WARSUPPORT_BASE           0x10B0      4272
+  DATE_SIGNATURE_FLOAT         0x3D2AAAAB  1026206379
+  DATE_SIG_TO_VALUE            0x8         8
+  DAYS_PER_YEAR                0x16D       365
+  EC_CIV_FACTORIES             0x378       888
+  EC_CIV_RESERVED_A            0x3B8       952
+  EC_CIV_RESERVED_B            0x3C0       960
+  EC_MIL_FACTORIES             0x2B8       696
+  EC_NAVAL_DOCKYARDS           0x318       792
+  FIXED                        0x186A0     100000
+  FN_CONSOLE_DISPATCH          0x344B080   54833280
+  FN_CONSOLE_EXECUTE           0x344B060   54833248
+  FN_GET_COUNTRY_NAME          0xD78310    14123792
+  FN_GET_MANPOWER              0x20B36E0   34289376
+  FN_GET_MODIFIER              0x2111840   34674752
+  FN_GET_POLITICS              0xD0CCE0    13683936
+  FN_GET_STABILITY             0xD36470    13853808
+  FN_GET_WAR_SUPPORT           0xD378D0    13859024
+  FN_OPERATOR_DELETE           0x3485850   55072848
+  FN_OPERATOR_NEW              0x3485810   55072784
+  FN_TAG_GET_COUNTRY           0xD77A90    14121616
+  GS_COUNTRIES                 0x310       784
+  GS_PAUSE_HOURS               0x908       2312
+  GS_PLAYER_TAG                0x518       1304
+  GS_PLAYER_TAG_ALT            0x51C       1308
+  GS_TAG2INDEX                 0x340       832
+  G_CONSOLE_MANAGER            0x4652018   73736216
+  G_COUNTRYTAG_DB              0x43DDE68   71163496
+  G_DEFAULT_ALLOC              0x43591B8   70619576
+  G_GAMESTATE                  0x43F2648   71247432
+  G_MODIFIER_DEFS              0x4388AC8   70814408
+  G_STABILITY_BASE             0x43E39F0   71186928
+  MGR_CMDS                     0x0         0
+  MODDEF_ID                    0x6C        108
+  MODDEF_NAME                  0x0         0
+  MODDEF_STRIDE                0x78        120
+  PDXARRAY_ALLOC               0x10        16
+  PDXARRAY_CAP                 0x8         8
+  PDXARRAY_DATA                0x0         0
+  PDXARRAY_SIZE                0xC         12
+  PDXARRAY_SZ                  0x18        24
+  PO_POLITICAL_POWER           0xE0        224
+  PO_RULING_SUB                0xD0        208
+  SRESULT_SZ                   0x28        40
+  STDSTRING_SZ                 0x20        32
+
+[combat]  Combat analysis, using the numbers the game computes itself.
+------------------------------------------------------------------------------
+  ATTACK_PROV                  0x1F0       496
+  A_HANDLE                     0x18        24
+  A_MANPOWER                   0x3D0       976
+  A_OOS                        0x498       1176
+  A_ORG                        0x428       1064
+  A_STR                        0x420       1056
+  A_TAG                        0x1D8       472
+  A_XP                         0x430       1072
+  CB_AIR_ORG                   0x150       336
+  CB_AIR_STR                   0x148       328
+  CB_FRONT                     0xC8        200
+  CB_GROUND_ORG                0x160       352
+  CB_GROUND_STR                0x158       344
+  CB_RESERVES                  0xE0        224
+  CB_RETREAT                   0xF8        248
+  CO_ARMIES_IN_COMBAT          0x12F0      4848
+  CO_DIPLOMACY_STATUS          0xF60       3936
+  DS_WAR_RELATIONS             0x20        32
+  GS_COMBATS                   0x268       616
+  G_GAMESTATE                  0x43F2648   71247432
+  LC_PROVINCE                  0x38        56
+  LC_SIDE_A                    0x28        40
+  LC_SIDE_B                    0x30        48
+  LC_TERRAIN                   0x48        72
+  PROV_ID                      0xA4        164
+  TERRAIN_NAME                 0x10        16
+  WR_FIRST                     0xC         12
+  WR_INSTIGATOR                0x198       408
+  WR_SECOND                    0x10        16
+  WR_THREAT                    0x190       400
+
+[doctrine]  Tactical doctrine: HOI4's micro rules, taken from the GAME'S OWN NUMBERS.
+------------------------------------------------------------------------------
+  A_DIGIN                      0x458       1112
+  A_OOS                        0x498       1176
+  A_ORG                        0x428       1064
+  A_STR                        0x420       1056
+  A_SUPPLY_RATIO               0x610       1552
+  A_TMPL                       0x3B8       952
+  STACK_EXTRA                  0x3         3
+  STACK_START                  0x5         5
+  SUB_WIDTH                    0x50        80
+  SUPPLY_GRACE_H               0x48        72
+  TMPL_COMBAT_BNS              0x68        104
+
+[armyops]  Armies, army groups and commanders, through the player command channel.
+------------------------------------------------------------------------------
+  AG_CANEXE                    0x21E66F0   35546864
+  AG_CTOR                      0x21E5910   35543312
+  AG_SIZE                      0x80        128
+  ALLOC                        0x43591B8   70619576
+  AL_ATTACK                    0xE58       3672
+  AL_DEFENSE                   0xE68       3688
+  AL_LOGISTICS                 0xE88       3720
+  AL_NAME                      0x40        64
+  AL_PLANNING                  0xE78       3704
+  AL_TAG                       0x120       288
+  CARMY_HANDLE                 0x18        24
+  CARMY_OG                     0xC0        192
+  FB_CANEXE                    0x21F2A10   35596816
+  FB_CTOR                      0x21F22F0   35594992
+  FB_SIZE                      0x70        112
+  FN_RESOLVE                   0x2D82F10   47722256
+  FRONT_HANDLE                 0x8         8
+  FRONT_PROVS                  0x20        32
+  FRONT_SECTIONS               0x58        88
+  FULL                         0x186A0     100000
+  INV_CANEXE                   0x2200760   35653472
+  INV_CTOR                     0x2200160   35651936
+  INV_SIZE                     0x60        96
+  NF_CANEXE                    0x21FB390   35632016
+  NF_CTOR                      0x21F9BF0   35625968
+  NF_SIZE                      0x70        112
+  NR_CANEXE                    0x21F4280   35603072
+  NR_CTOR                      0x21F3A10   35600912
+  NR_SIZE                      0x70        112
+  OA_CANEXE                    0x21ED460   35574880
+  OA_CTOR                      0x21EBA90   35568272
+  OA_SIZE                      0x50        80
+  OD_CANEXE                    0x21E9090   35557520
+  OD_CTOR                      0x21E9530   35558704
+  OD_SIZE                      0x30        48
+  OE2_CANEXE                   0x21FF200   35648000
+  OE2_CTOR                     0x21FEE60   35647072
+  OE2_SIZE                     0x38        56
+  OE_CANEXE                    0x21FF200   35648000
+  OE_CTOR                      0x21FEE60   35647072
+  OE_SIZE                      0x38        56
+  OG_CANEXE                    0x21E4FC0   35540928
+  OG_CTOR                      0x21E4710   35538704
+  OG_DIVISIONS                 0x50        80
+  OG_HANDLE                    0x8         8
+  OG_IS_GROUP                  0x39        57
+  OG_LEADER                    0x88        136
+  OG_MEMBERS                   0x228       552
+  OG_NAME                      0x160       352
+  OG_NOGROUP_CHK               0x1B0       432
+  OG_ORDERS                    0x98        152
+  OG_PARENT                    0x1B8       440
+  OG_SIZE                      0x58        88
+  OG_THEATRE                   0x40        64
+  PDT_CANEXE                   0x22030F0   35664112
+  PDT_CTOR                     0x2202EE0   35663584
+  PDT_SIZE                     0x40        64
+  PD_CANEXE                    0x22029F0   35662320
+  PD_CTOR                      0x2202420   35660832
+  PD_SIZE                      0x60        96
+  PROV_ID                      0xA4        164
+  PROV_STATE                   0xE0        224
+  SEC_ID                       0x8         8
+  SEC_PROVS                    0x30        48
+  SL_CANEXE                    0x21FF820   35649568
+  SL_CTOR                      0x21FF3E0   35648480
+  SL_SIZE                      0x38        56
+
+[turnloop]  Turn loop: let the model sleep and wake at the right moment.
+------------------------------------------------------------------------------
+  CO_DEPLOYMENT                0xF48       3912
+  CO_PRODUCTION                0xF40       3904
+  DEP_PROGRESS                 0x60        96
+  DEP_QUEUE                    0x80        128
+  DEP_TARGET                   0x68        104
+  PROD_BLD_LINES               0x70        112
+  PROD_MIL_LINES               0x58        88
+
+[mapdata]  Map data: province definitions, the adjacency graph, and border computation.
+------------------------------------------------------------------------------
+  CO_STATES                    0x460       1120
+  PROV_ID                      0xA4        164
+  PROV_STATE                   0xE0        224
+  STATE_ID                     0x48        72
+
+[legality]  Player rules: restrict what the command channel allows to what a PLAYER could
+------------------------------------------------------------------------------
+  AL_RANK                      0xD7C       3452
+  CO_POLITICS                  0xF68       3944
+  FN_TOKEN_STR                 0x3471B20   54991648
+  PARTY_IDEOLOGY_TOKEN         0x8         8
+  PO_RULING_SUB                0xD0        208
+
+[unitorders]  Per-division orders: the same command as a player's RIGHT CLICK.
+------------------------------------------------------------------------------
+  ACT_DIV_HANDLE               0x34        52
+  ACT_OFF                      0x28        40
+  ACT_PATH                     0x40        64
+  ACT_TOKEN                    0x30        48
+  CARMY_HANDLE                 0x18        24
+  CARMY_PATH                   0x200       512
+  CARMY_PATH_SIZE              0x20C       524
+  CARMY_PROVINCE               0x1F0       496
+  MV_CTOR                      0x23E9950   37656912
+  MV_SIZE                      0x100       256
+  PROV_ID                      0xA4        164
+  UNIT_MOVE_TOKEN              0x3648      13896
+
+[session]  Session info: single or multiplayer, and which country is being played.
+------------------------------------------------------------------------------
+  CLIENT_FIRST                 0x348       840
+  CLIENT_STRIDE                0x700       1792
+  GS_COMBATS                   0x268       616
+  GS_MAJORS                    0x328       808
+  G_GAMESTATE                  0x43F2648   71247432
+  G_IDLER                      0x43F2598   71247256
+  IDLER_COUNTRY_NAME           0x620       1568
+  IDLER_LOCAL_PLAYER           0x7C0       1984
+  IDLER_PAUSED                 0x6C1       1729
+  PAUSE_CANEXE                 0x20955A0   34166176
+  PAUSE_CTOR                   0x2095400   34165760
+  PAUSE_SIZE                   0x50        80
+  SESSION_NET                  0x58        88
